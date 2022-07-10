@@ -1,0 +1,7 @@
+project: slab
+target: operations
+
+cmds:
+  - cmd: /operations
+  - cmd: /operations_no_inst @@
+    libfuzzer: false
